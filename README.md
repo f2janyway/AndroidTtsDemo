@@ -1,4 +1,5 @@
-## Android on-device (korean) TTS test project from [Sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx) / [SherpaOnnxTts](https://github.com/k2-fsa/sherpa-onnx/tree/master/android/SherpaOnnxTts) demo
+## Android on-device (korean) TTS test project 
+### from [Sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx) / [SherpaOnnxTts](https://github.com/k2-fsa/sherpa-onnx/tree/master/android/SherpaOnnxTts) demo
 
 
 ## pretraind model list
@@ -22,3 +23,11 @@ Like this examples
     vits-mimic3-ko_KO-kss_low > app/src/main/assets/vits-mimic3-ko_KO-kss_low
 
     vits-vctk > app/src/main/assets/vits-vctk
+
+---
+
+This repo only configured arm64-v8a arch, 
+
+if some device that are not arm64-v8a arch, 
+
+Generate .so file in jniLibs/{your_arch} dir. see above detail doc how to generate.
